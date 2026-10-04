@@ -16,7 +16,7 @@ export default function Home() {
         <div className="mx-auto max-w-6xl px-4 pb-16 pt-14 sm:px-6 md:pt-24">
           <Star className="absolute right-[8%] top-10 hidden w-10 text-orange md:block" />
           <Star className="absolute left-[46%] top-[70%] hidden w-6 text-sun md:block" />
-          <p className="font-hand text-2xl text-orange md:text-3xl">a podcast by Rohan &amp; Aarush</p>
+          <p className="font-hand text-2xl text-orange md:text-3xl">a podcast by Aarush &amp; Rohan</p>
           <h1 className="mt-2 max-w-4xl font-display text-5xl font-extrabold leading-[0.95] tracking-tight sm:text-7xl md:text-8xl">
             How the best{" "}
             <span className="relative inline-block">

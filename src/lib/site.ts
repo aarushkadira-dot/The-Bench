@@ -3,7 +3,7 @@ export const site = {
   name: "The Bench",
   tagline: "How the best actually think.",
   description:
-    "Every season, Rohan and Aarush pull people from one world onto the bench and break down the calls behind what they do — the bets, the mistakes, and the thinking you can steal.",
+    "Every season, Aarush and Rohan pull people from one world onto the bench and break down the calls behind what they do — the bets, the mistakes, and the thinking you can steal.",
   contactEmail: "aarush.kadira@gmail.com", // form submissions are emailed here (via FormSubmit)
   links: {
     youtube: "https://www.youtube.com/@TheBenchTV-o4u",

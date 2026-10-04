@@ -38,7 +38,7 @@ export const episodes: Episode[] = [
     date: "2026-08-14",
     youtubeId: "F5rXTDwLLlA",
     summary:
-      "Rohan and Aarush sit down with Tuna Uskudar to discuss his startup, Provenance, his advice for other founders, and stories from his journey.",
+      "Aarush and Rohan sit down with Tuna Uskudar to discuss his startup, Provenance, his advice for other founders, and stories from his journey.",
     tags: ["Startups", "Finance", "AI"],
   },
   {
@@ -51,7 +51,7 @@ export const episodes: Episode[] = [
     date: "2026-08-10",
     youtubeId: "DkdqPAk7eO8",
     summary:
-      "The inaugural episode of The Bench. Rohan and Aarush sit down with Benjamin Chan to discuss his startup, Mythos, and his advice for other founders.",
+      "The inaugural episode of The Bench. Aarush and Rohan sit down with Benjamin Chan to discuss his startup, Mythos, and his advice for other founders.",
     tags: ["Startups", "Founders"],
   },
 ];
