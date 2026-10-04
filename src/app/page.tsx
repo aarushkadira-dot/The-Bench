@@ -52,7 +52,7 @@ export default function Home() {
         <div className="relative">
           <div className="mb-3 flex items-end gap-2">
             <h2 className="font-hand text-3xl md:text-4xl">fresh off the bench</h2>
-            <CurlyArrow className="w-20 translate-y-4 text-orange" />
+            <CurlyArrow className="w-16 translate-y-3 text-orange" />
           </div>
           <Link
             href={`/episodes/${latest.slug}`}

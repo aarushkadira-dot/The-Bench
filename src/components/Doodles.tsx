@@ -8,9 +8,9 @@ export const Logo = ({ className }: P) => (
 );
 
 export const CurlyArrow = ({ className }: P) => (
-  <svg viewBox="0 0 120 80" fill="none" className={className} aria-hidden>
-    <path d="M6 10c30-8 62 4 58 26-3 16-26 14-22-2 5-20 44-16 66 22" stroke="currentColor" strokeWidth="3" strokeLinecap="round" />
-    <path d="M100 46l9 12-14 2" stroke="currentColor" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
+  <svg viewBox="0 0 120 70" fill="none" className={className} aria-hidden>
+    <path d="M8 60C30 20 80 10 108 34" stroke="currentColor" strokeWidth="3.5" strokeLinecap="round" />
+    <path d="M94 31L108 34L103 20" stroke="currentColor" strokeWidth="3.5" strokeLinecap="round" strokeLinejoin="round" />
   </svg>
 );
 
