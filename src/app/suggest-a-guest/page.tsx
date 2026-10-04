@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { MailForm } from "@/components/MailForm";
+import { ContactForm } from "@/components/ContactForm";
 import { CurlyArrow } from "@/components/Doodles";
 
 export const metadata: Metadata = { title: "Suggest a guest" };
@@ -17,11 +17,12 @@ export default function SuggestPage() {
         <CurlyArrow className="absolute -right-24 top-6 hidden w-24 rotate-90 text-orange md:block" />
       </div>
       <div className="mt-10">
-        <MailForm
+        <ContactForm
           subject="Guest suggestion for The Bench"
           cta="Send suggestion →"
           fields={[
             { name: "name", label: "Your name", required: true },
+            { name: "email", label: "Your email", type: "email" },
             { name: "guest", label: "Who should we have on?", required: true },
             { name: "company", label: "What are they building?" },
             { name: "link", label: "Link (LinkedIn, X, website)" },

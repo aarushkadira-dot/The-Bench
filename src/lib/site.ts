@@ -4,7 +4,7 @@ export const site = {
   tagline: "How founders actually think.",
   description:
     "Rohan and Aarush pull founders onto the bench and break down the calls behind what they're building — the bets, the mistakes, and the thinking you can steal.",
-  contactEmail: "", // e.g. hello@thebenchpod.com — used by the forms
+  contactEmail: "aarush.kadira@gmail.com", // form submissions are emailed here (via FormSubmit)
   links: {
     youtube: "https://www.youtube.com/@TheBenchTV-o4u",
     spotify: "",

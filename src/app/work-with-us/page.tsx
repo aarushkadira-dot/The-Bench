@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { MailForm } from "@/components/MailForm";
+import { ContactForm } from "@/components/ContactForm";
 
 export const metadata: Metadata = { title: "Work with us" };
 
@@ -23,7 +23,7 @@ export default function WorkPage() {
         ))}
       </div>
       <div className="mt-14 max-w-2xl">
-        <MailForm
+        <ContactForm
           subject="Working with The Bench"
           cta="Get in touch →"
           fields={[
