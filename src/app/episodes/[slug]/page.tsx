@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { episodes, formatDate, getEpisode } from "@/lib/episodes";
+import { episodes, formatDate, getEpisode, getSeason } from "@/lib/episodes";
 import { EpisodeCard } from "@/components/EpisodeCard";
 import { ListenLinks } from "@/components/ListenLinks";
 import { CurlyArrow } from "@/components/Doodles";
@@ -14,7 +14,7 @@ export function generateStaticParams() {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const ep = getEpisode((await params).slug);
-  return ep ? { title: `Ep. ${ep.number}: ${ep.title}`, description: ep.summary } : {};
+  return ep ? { title: `S${ep.season} E${ep.number}: ${ep.title}`, description: ep.summary } : {};
 }
 
 export default async function EpisodePage({ params }: Props) {
@@ -26,7 +26,8 @@ export default async function EpisodePage({ params }: Props) {
     <article className="mx-auto max-w-4xl px-4 pt-12 sm:px-6">
       <Link href="/episodes" className="text-sm font-medium hover:text-orange">← All episodes</Link>
       <div className="mt-6 flex flex-wrap items-center gap-3">
-        <span className="rounded-full bg-sun px-3 py-0.5 font-display text-sm font-bold">Episode {ep.number}</span>
+        <span className="rounded-full bg-sun px-3 py-0.5 font-display text-sm font-bold">Season {ep.season} · Episode {ep.number}</span>
+        <span className="font-display text-sm font-bold">{getSeason(ep.season).name}</span>
         <span className="text-xs uppercase tracking-widest text-muted">{formatDate(ep.date)}</span>
       </div>
       <h1 className="mt-3 font-display text-5xl font-extrabold leading-tight md:text-6xl">{ep.guest}</h1>

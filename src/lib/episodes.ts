@@ -1,5 +1,19 @@
+export type Season = { number: number; name: string; description: string };
+
+// Newest first.
+export const seasons: Season[] = [
+  {
+    number: 1,
+    name: "Founders & Ventures",
+    description: "Founders and investors on the bets, pivots, and hard calls behind what they're building.",
+  },
+];
+
+export const getSeason = (n: number) => seasons.find((s) => s.number === n)!;
+
 export type Episode = {
-  number: number;
+  season: number;
+  number: number; // episode number within the season
   slug: string;
   guest: string;
   company: string;
@@ -15,6 +29,7 @@ export type Episode = {
 // Newest first.
 export const episodes: Episode[] = [
   {
+    season: 1,
     number: 2,
     slug: "tuna-uskudar-provenance",
     guest: "Tuna Uskudar",
@@ -27,6 +42,7 @@ export const episodes: Episode[] = [
     tags: ["Startups", "Finance", "AI"],
   },
   {
+    season: 1,
     number: 1,
     slug: "benjamin-chan-mythos",
     guest: "Benjamin Chan",

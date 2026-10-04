@@ -14,7 +14,7 @@ export default function AboutPage() {
       <div className="mt-8 space-y-5 text-lg leading-relaxed text-muted">
         <p>{site.description}</p>
         <p>
-          Every founder has a moment where they had to make a call with no playbook. We sit them down and
+          Every season we pick one world — starting with founders and ventures. Everyone in it has a moment where they had to make a call with no playbook. We sit them down and
           slow that moment down: what they saw, what they weighed, and what they&apos;d tell someone
           about to make the same call.
         </p>

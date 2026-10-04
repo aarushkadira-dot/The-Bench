@@ -1,9 +1,9 @@
 // Fill in the empty links when they're ready — empty links are hidden automatically.
 export const site = {
   name: "The Bench",
-  tagline: "How founders actually think.",
+  tagline: "How the best actually think.",
   description:
-    "Rohan and Aarush pull founders onto the bench and break down the calls behind what they're building — the bets, the mistakes, and the thinking you can steal.",
+    "Every season, Rohan and Aarush pull people from one world onto the bench and break down the calls behind what they do — the bets, the mistakes, and the thinking you can steal.",
   contactEmail: "aarush.kadira@gmail.com", // form submissions are emailed here (via FormSubmit)
   links: {
     youtube: "https://www.youtube.com/@TheBenchTV-o4u",

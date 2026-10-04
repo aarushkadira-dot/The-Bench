@@ -11,7 +11,7 @@ export default function SuggestPage() {
       <h1 className="font-display text-5xl font-extrabold md:text-6xl">Suggest a guest</h1>
       <div className="relative">
         <p className="mt-4 text-lg text-muted">
-          Know a founder with a story worth breaking down? Yourself counts too. Tell us who they are and
+          Know someone with a story worth breaking down? This season we&apos;re talking to founders and investors. Yourself counts too. Tell us who they are and
           the one decision you&apos;d want us to ask about.
         </p>
         <CurlyArrow className="absolute -right-24 top-6 hidden w-24 rotate-90 text-orange md:block" />

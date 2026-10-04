@@ -11,7 +11,7 @@ export function EpisodeCard({ ep }: { ep: Episode }) {
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img src={thumb(ep.youtubeId)} alt="" className="h-full w-full object-cover transition group-hover:scale-105" />
         <span className="absolute left-3 top-3 rounded-full bg-sun px-3 py-0.5 font-display text-sm font-bold">
-          Ep. {ep.number}
+          S{ep.season} · Ep. {ep.number}
         </span>
       </div>
       <div className="p-5">
